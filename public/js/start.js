@@ -1,3 +1,13 @@
+if (!window.Telegram?.WebApp?.initData) {
+  document.body.innerHTML =
+    '<div style="margin: 20px"><h1>Доступ запрещён</h1><p>Откройте через Telegram</p><a href="https://t.me/YourBot">Открыть</a></div>';
+}
+// if (
+//   !window.Telegram?.WebApp?.initData &&
+//   window.location.pathname !== "/not-telegram"
+// ) {
+//   window.location.href = "/not-telegram";
+// }
 function getCookie(name) {
   let cookie = {};
   document.cookie.split(";").forEach(function (el) {

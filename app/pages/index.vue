@@ -88,11 +88,12 @@ const pinDialog = ref(null);
 const goToWallet = () => {
   // router.push(localePath("/wallet"));
   //console.log(theme.colorScheme.value);
-  if (tmpUser.value.verify) {
-    showPinCodeDialog.value = true;
-  } else {
-    userLogin();
-  }
+  // if (tmpUser.value.verify) {
+  //   showPinCodeDialog.value = true;
+  // } else {
+  //   userLogin();
+  // }
+  userLogin();
 };
 const createWallet = () => {
   router.push(localePath("/createwallet"));
@@ -147,18 +148,18 @@ const showOfferta = () => {
 // const pinAdded = () => {};
 </script>
 <template>
-  <div class="d-flex flex-column align-center fill-height px-4">
+  <div class="d-flex flex-column align-center fill-height px-4 mt-4">
     <div>
       <v-img src="/images/matreshka-100.svg" width="100"></v-img>
     </div>
     <div>
       <h1>Matreshka Pay</h1>
     </div>
-    <div class="mt-4">
+    <!-- <div class="mt-4">
       Welcome, {{ tgStore.initDataUnsafe?.user?.first_name }}
       {{ tgStore.initDataUnsafe?.user?.last_name }}
     </div>
-    <div class="my-4">PIN: 1234</div>
+    <div class="my-4">PIN: 1234</div> -->
     <div class="mt-8" style="width: 100%" v-if="tmpUser">
       <TMAMainButton
         color="primary"

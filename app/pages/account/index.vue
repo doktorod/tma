@@ -41,8 +41,46 @@ const logout = async () => {
 </script>
 <template>
   <div class="wallet__settings_block fill-height mx-4">
-    <div class="py-2 text-center" style="width: 100%">
+    <!-- <div class="py-2 text-center" style="width: 100%">
       <h2>{{ $t("account") }}</h2>
+    </div> -->
+    <div class="mt-6 text-disabled text-uppercase">{{ $t("account") }}</div>
+    <div
+      class="main-block clickable mt-2"
+      v-ripple.center="{ class: `text-primary` }"
+      @click="goTo('/account/personal')"
+    >
+      <div>
+        <v-icon color="primary" class="main-block-icon">mdi-account-cog</v-icon>
+        {{ $t("personalData") }}
+      </div>
+      <div class="text-disabled">
+        <v-btn
+          icon="mdi-chevron-right"
+          flat
+          class="text-disabled small-btn"
+          size="small"
+        ></v-btn>
+      </div>
+    </div>
+
+    <div
+      class="main-block clickable mt-2"
+      v-ripple.center="{ class: `text-primary` }"
+      @click="goTo('/account/security')"
+    >
+      <div>
+        <v-icon color="primary" class="main-block-icon">mdi-security</v-icon>
+        {{ $t("security") }}
+      </div>
+      <div class="text-disabled">
+        <v-btn
+          icon="mdi-chevron-right"
+          flat
+          class="text-disabled small-btn"
+          size="small"
+        ></v-btn>
+      </div>
     </div>
 
     <div

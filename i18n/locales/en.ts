@@ -73,5 +73,7 @@ export default defineI18nLocale(async (locale) => {
     paymentMadeSucces: "The payment was successfully made!",
     pubOfferta: "Public offerta",
     agree: "Agree",
+    personalData: "Personal data",
+    security: "Security",
   };
 });
