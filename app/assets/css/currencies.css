@@ -1,0 +1,93 @@
+@font-face {
+  font-family: 'currencies';
+  src:  url('../fonts/currencies.eot?j93hgl');
+  src:  url('../fonts/currencies.eot?j93hgl#iefix') format('embedded-opentype'),
+    url('../fonts/currencies.ttf?j93hgl') format('truetype'),
+    url('../fonts/currencies.woff?j93hgl') format('woff'),
+    url('../fonts/currencies.svg?j93hgl#currencies') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'currencies' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-currency-trx .path1:before {
+  content: "\e90d";
+  color: rgb(239, 0, 39);
+}
+.icon-currency-trx .path2:before {
+  content: "\e90e";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-tron:before {
+  content: "\e90f";
+  color: #ff060a;
+}
+.icon-currency-usdt .path1:before {
+  content: "\e90b";
+  color: rgb(80, 175, 149);
+}
+.icon-currency-usdt .path2:before {
+  content: "\e90c";
+  margin-left: -1.1494140625em;
+  color: rgb(255, 255, 255);
+}
+.icon-currency-eth .path1:before {
+  content: "\e900";
+  color: rgb(52, 52, 52);
+}
+.icon-currency-eth .path2:before {
+  content: "\e901";
+  margin-left: -0.6142578125em;
+  color: rgb(140, 140, 140);
+}
+.icon-currency-eth .path3:before {
+  content: "\e902";
+  margin-left: -0.6142578125em;
+  color: rgb(60, 60, 59);
+}
+.icon-currency-eth .path4:before {
+  content: "\e903";
+  margin-left: -0.6142578125em;
+  color: rgb(140, 140, 140);
+}
+.icon-currency-eth .path5:before {
+  content: "\e904";
+  margin-left: -0.6142578125em;
+  color: rgb(20, 20, 20);
+}
+.icon-currency-eth .path6:before {
+  content: "\e905";
+  margin-left: -0.6142578125em;
+  color: rgb(57, 57, 57);
+}
+.icon-currency-gbp:before {
+  content: "\e906";
+}
+.icon-currency-btc:before {
+  content: "\e907";
+}
+.icon-currency-usd:before {
+  content: "\e908";
+}
+.icon-currency-rub:before {
+  content: "\e909";
+}
+.icon-currency-eur:before {
+  content: "\e90a";
+}

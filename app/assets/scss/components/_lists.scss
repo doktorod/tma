@@ -1,0 +1,13 @@
+.compact-list {
+  &.v-list-item > .v-list-item__prepend {
+    width: 30px !important;
+    padding-right: 2px !important;
+  }
+}
+
+// for checkboxes in multiple select and autocomplete
+.v-selection-control.v-checkbox-btn
+  > .v-selection-control__wrapper
+  > .v-selection-control__input {
+  margin-right: 10px !important;
+}

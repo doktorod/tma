@@ -1,0 +1,17 @@
+.main-select {
+  & > .v-input__control > .v-field > .v-field__outline::before {
+    border-width: 0 !important;
+  }
+}
+
+.no-border
+  > .v-input__control
+  > .v-field--variant-outlined
+  > .v-field__outline {
+  display: none;
+}
+
+.currency-selected > .v-input__control > .v-field {
+  --v-field-input-padding-top: 0 !important;
+  --v-field-input-padding-bottom: 0 !important;
+}

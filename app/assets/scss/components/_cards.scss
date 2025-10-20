@@ -1,0 +1,14 @@
+.v-card,
+.main-div {
+  background-color: rgb(var(--v-theme-background)) !important;
+}
+
+.main-card-title {
+  position: relative;
+  text-align: center;
+  &-back {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+}

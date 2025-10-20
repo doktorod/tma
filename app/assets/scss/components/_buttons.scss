@@ -1,0 +1,36 @@
+.v-btn {
+  &.m-btn {
+    border-radius: 8px;
+  }
+
+  &.square-btn-60 {
+    min-width: 60px !important;
+    height: 60px !important;
+    border-radius: 8px;
+    & > .v-btn__content > i {
+      font-size: 36px !important;
+    }
+  }
+
+  &.round-btn-60 {
+    & > .v-btn__content > i {
+      font-size: 32px !important;
+    }
+  }
+  &.opacity-btn-60 {
+    & > .v-btn__content > i {
+      opacity: 0.6 !important;
+    }
+  }
+
+  &.small-btn {
+    & > .v-btn__content > i {
+      font-size: 24px !important;
+    }
+  }
+
+  & > .v-btn__content {
+    font-family: "Roboto", sans-serif !important;
+    text-transform: none !important;
+  }
+}
